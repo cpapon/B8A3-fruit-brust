@@ -234,18 +234,25 @@
           </div>
           <button class="text-[#F85559] pt-8" onclick="my_modal_1.showModal()">Details</button>
           <dialog id="my_modal_1" class="modal">
-            <form method="dialog" class="modal-box w-4/12 flex flex-col justify-center items-center">
+            <form method="dialog" class="modal-box w-4/12 flex flex-col justify-center items-center px-16 py-8">
               <div>
-                <img src="./images/fruit7.png" alt="">
+                <img src="./images/fruit6.png" alt="" class="min-w-[200px]">
               </div>
-              <h3 class="font-bold text-lg">Orange</h3>
-              <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <h3 class="font-bold text-2xl text-[#121212] font-extrabold">Orange</h3>
+              <p class="py-4 text-[#646464]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <div class="rating rating-sm">
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+              </div>
               <div class="modal-action">
                 <!-- if there is a button in form, it will close the modal -->
                 
                 <div class="mt-4 flex justify-between justify-center gap-5">
-                  <button class="px-4 py-2 bg-gray-300 hover:bg-gray-400 rounded focus:outline-none">Close</button>
-                  <button class="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded focus:outline-none">Buy Now</button>
+                  <button class="btn bg-white hover:bg-gray-400 hover:text-white text-[#F85559] border-[#F85559]">Close</button>
+                  <button class="btn bg-[#F85559] border-none text-white hover:text-black">Buy Now </button>
                 </div>
               </div>
             </form>
@@ -268,7 +275,32 @@
             <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
             <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
           </div>
-          <button class="text-[#F85559] pt-8">Details</button>
+          <button class="text-[#F85559] pt-8" onclick="my_modal_2.showModal()">Details</button>
+          <dialog id="my_modal_2" class="modal">
+            <form method="dialog" class="modal-box w-4/12 flex flex-col justify-center items-center px-16 py-8">
+              <div>
+                <img src="./images/fruit7.png" alt="" class="min-w-[200px]">
+              </div>
+              <h3 class="font-bold text-2xl text-[#121212] font-extrabold">Orange</h3>
+              <p class="py-4 text-[#646464]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <div class="rating rating-sm">
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <div class="modal-action">
+                <!-- if there is a button in form, it will close the modal -->
+                
+                <div class="mt-4 flex justify-between justify-center gap-5">
+                  <button class="btn bg-white hover:bg-gray-400 hover:text-white text-[#F85559] border-[#F85559]">Close</button>
+                  <button class="btn bg-[#F85559] border-none text-white hover:text-black">Buy Now </button>
+                </div>
+              </div>
+            </form>
+          </dialog>
+           
         </div>
       </div>
       <div class="card bg-base-100 border-2">
@@ -287,7 +319,31 @@
             <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
             <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
           </div>
-          <button class="text-[#F85559] pt-8">Details</button>
+          <button class="text-[#F85559] pt-8" onclick="my_modal_3.showModal()">Details</button>
+          <dialog id="my_modal_3" class="modal">
+            <form method="dialog" class="modal-box w-4/12 flex flex-col justify-center items-center px-16 py-8">
+              <div>
+                <img src="./images/fruit8.png" alt="" class="min-w-[200px]">
+              </div>
+              <h3 class="font-bold text-2xl text-[#121212] font-extrabold">Orange</h3>
+              <p class="py-4 text-[#646464]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <div class="rating rating-sm">
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <div class="modal-action">
+                <!-- if there is a button in form, it will close the modal -->
+                
+                <div class="mt-4 flex justify-between justify-center gap-5">
+                  <button class="btn bg-white hover:bg-gray-400 hover:text-white text-[#F85559] border-[#F85559]">Close</button>
+                  <button class="btn bg-[#F85559] border-none text-white hover:text-black">Buy Now </button>
+                </div>
+              </div>
+            </form>
+          </dialog>
         </div>
       </div>
       <div class="card bg-base-100 border-2">
@@ -306,7 +362,31 @@
             <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
             <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
           </div>
-          <button class="text-[#F85559] pt-8">Details</button>
+          <button class="text-[#F85559] pt-8" onclick="my_modal_4.showModal()">Details</button>
+          <dialog id="my_modal_4" class="modal">
+            <form method="dialog" class="modal-box w-4/12 flex flex-col justify-center items-center px-16 py-8">
+              <div>
+                <img src="./images/fruit9.png" alt="" class="min-w-[200px]">
+              </div>
+              <h3 class="font-bold text-2xl text-[#121212] font-extrabold">Orange</h3>
+              <p class="py-4 text-[#646464]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <div class="rating rating-sm">
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <div class="modal-action">
+                <!-- if there is a button in form, it will close the modal -->
+                
+                <div class="mt-4 flex justify-between justify-center gap-5">
+                  <button class="btn bg-white hover:bg-gray-400 hover:text-white text-[#F85559] border-[#F85559]">Close</button>
+                  <button class="btn bg-[#F85559] border-none text-white hover:text-black">Buy Now </button>
+                </div>
+              </div>
+            </form>
+          </dialog>
         </div>
       </div>
     </div>
@@ -438,9 +518,9 @@
             <img src="./images/group.png" alt="" class="absolute">
           </div>
           <div>
-            <h3 class="pb-3 text-2xl font-semibold">Dedicated Team</h3>
+            <h3 class="pb-2 text-2xl font-semibold">Dedicated Team</h3>
             <div class="h-0.5 bg-black w-24" ></div>
-            <p class="pt-3 text-[16px] text-[#7c7979]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            <p class="pt-2 text-[16px] text-[#7c7979]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
           </div>
         </div>
         <div class="flex items-center justify-start gap-3 mb-10">
@@ -448,9 +528,9 @@
             <img src="./images/love.png" alt="" class="absolute">
           </div>
           <div>
-            <h3 class="pb-3 text-2xl font-semibold">Dedicated Team</h3>
+            <h3 class="pb-2 text-2xl font-semibold">Fresh is Best</h3>
             <div class="h-0.5 bg-black w-24" ></div>
-            <p class="pt-3 text-[16px] text-[#7c7979]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            <p class="pt-2 text-[16px] text-[#7c7979]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
           </div>
         </div>
         <div class="flex items-center justify-start gap-3 mb-10">
@@ -458,9 +538,9 @@
             <img src="./images/gift-box.png" alt="" class="absolute">
           </div>
           <div>
-            <h3 class="pb-3 text-2xl font-semibold">Dedicated Team</h3>
+            <h3 class="pb-2 text-2xl font-semibold">Gift Certificates</h3>
             <div class="h-0.5 bg-black w-24" ></div>
-            <p class="pt-3 text-[16px] text-[#7c7979]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            <p class="pt-2 text-[16px] text-[#7c7979]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
           </div>
         </div>
       </div>
@@ -471,7 +551,7 @@
       <div class="flex items-center justify-end text-right gap-3 mb-10">
        
         <div>
-          <h3 class="pb-3 text-2xl font-semibold">Integrated Supplier</h3>
+          <h3 class="pb-2 text-2xl font-semibold">Integrated Supplier</h3>
           <div class="h-0.5 bg-black w-24 float-right" ></div>
           <p class="pt-3 text-[16px] text-[#7c7979]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
         </div>
@@ -482,7 +562,7 @@
       <div class="flex items-center justify-end text-right gap-3 mb-10">
        
         <div>
-          <h3 class="pb-3 text-2xl font-semibold">Dedicated Team</h3>
+          <h3 class="pb-2 text-2xl font-semibold">Sustainable Practice</h3>
           <div class="h-0.5 bg-black w-24 float-right" ></div>
           <p class="pt-3 text-[16px] text-[#7c7979]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
         </div>
@@ -493,7 +573,7 @@
       <div class="flex items-center justify-end text-right gap-3 mb-10">
        
         <div>
-          <h3 class="pb-3 text-2xl font-semibold">Dedicated Team</h3>
+          <h3 class="pb-2 text-2xl font-semibold">The Benefits Only</h3>
           <div class="h-0.5 bg-black w-24 float-right" ></div>
           <p class="pt-3 text-[16px] text-[#7c7979]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
         </div>
