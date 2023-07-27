@@ -38,11 +38,12 @@
 </head>
 
 <body class="font-lato">
-  <header class="max-w-screen-xl mx-auto my-10">
-    <nav class="bg-[#F85559] px-10 py-5 rounded-full border">
-      <div class="flex justify-between items-center">
+  <header class="max-sm lg:max-w-screen-xl mx-auto my-10">
+    <nav class="bg-[#F85559] px-5 py-2 lg:px-10 lg:py-5 border">
+      <div class="lg:flex justify-between items-center ">
         <!-- Left Side Menu Bar -->
-        <div class="flex items-center space-x-5 text-lg font-medium">
+        <div class="lg:flex items-center space-x-5 text-lg font-medium">
+         
           <a href="#" class="text-white">Home</a>
           <a href="#" class="text-white">About Us</a>
           <a href="#" class="text-white">Shop</a>
@@ -63,18 +64,18 @@
       </div>
     </nav>
   </header>
-  <section class="max-w-screen-xl mx-auto my-10">
+  <section class="max-sm lg:max-w-screen-xl mx-auto my-10">
     <div class="carousel w-full rounded-lg">
       <!-- Slider  Using Carousel from DaisyUI -->
-      <div id="slide1" class="carousel-item relative w-full relative">
+      <div id="slide1" class="carousel-item relative w-full">
         <!-- Slider Content  -->
         <div class="hero-overlay bg-opacity-50 absolute"></div>
         <div class="hero-content flex text-center text-neutral-content absolute w-full h-full">
           <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold">
+            <h1 class=" mb-2 lg:mb-5 text-2xl lg:text-5xl font-bold">
               Exotic tastes at your doorstep
             </h1>
-            <p class="mb-5">We supply highly quality organic products</p>
+            <p class="mb-1">We supply highly quality organic products</p>
             <button class="btn bg-[#F85559] border-none text-white hover:text-black">
               Shop Now
             </button>
@@ -92,7 +93,7 @@
         <div class="hero-overlay bg-opacity-50 absolute"></div>
         <div class="hero-content flex text-center text-neutral-content absolute w-full h-full">
           <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold">
+            <h1 class="mb-2 lg:mb-5 text-2xl lg:text-5xl font-bold">
               Exotic tastes at your doorstep
             </h1>
             <p class="mb-5">We supply highly quality organic products</p>
@@ -112,7 +113,7 @@
         <div class="hero-overlay bg-opacity-50 absolute"></div>
         <div class="hero-content flex text-center text-neutral-content absolute w-full h-full">
           <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold">
+            <h1 class="mb-2 lg:mb-5 text-2xl lg:text-5xl font-bold">
               Exotic tastes at your doorstep
             </h1>
             <p class="mb-5">We supply highly quality organic products</p>
@@ -132,7 +133,7 @@
         <div class="hero-overlay bg-opacity-50 absolute"></div>
         <div class="hero-content flex text-center text-neutral-content absolute w-full h-full">
           <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold">
+            <h1 class="mb-2 lg:mb-5 text-2xl lg:text-5xl font-bold">
               Exotic tastes at your doorstep
             </h1>
             <p class="mb-5">We supply highly quality organic products</p>
@@ -148,7 +149,7 @@
         </div>
       </div>
     </div>
-    <div class="flex items-center -mt-24 relative">
+    <div class="max-sm:hidden max-md:flex lg:flex items-center -mt-24 relative">
       <div class="bg-white grid grid-cols-5 mx-auto justify-between border-0 rounded shadow-md">
         <div class="py-5 px-8 text-center">
           <img src="./images/fruit1.png" alt="">
@@ -175,7 +176,7 @@
     </div>
   </section>
   <section class="max-w-screen-xl mx-auto my-10">
-    <div class="delay-day flex justify-between items-center">
+    <div class="flex-wrap delay-day lg:flex justify-between items-center">
       <div class="delay-titile">
         <h2 class="text-3xl font-bold text-[#121212] mb-6">
           Deal of the day
@@ -215,7 +216,7 @@
         </div>
       </div>
     </div>
-    <div class="card text-[#F85559] mt-10 grid grid-cols-4 gap-5">
+    <div class="card text-[#F85559] mt-10 grid grid-cols-1 lg:grid-cols-4 gap-5">
       <div class="card bg-base-100 border-2">
         <figure class="px-10 pt-10">
           <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
@@ -238,7 +239,7 @@
               <div>
                 <img src="./images/fruit6.png" alt="" class="min-w-[200px]">
               </div>
-              <h3 class="font-bold text-2xl text-[#121212] font-extrabold">Orange</h3>
+              <h3 class="font-bold text-2xl text-[#121212] font-extrabold">Apples</h3>
               <p class="py-4 text-[#646464]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
               <div class="rating rating-sm">
                 <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
@@ -267,7 +268,7 @@
           <h2 class="card-title border-b-2 border-dotted border-black pb-4 px-3 text-[#121212]">
             12.90$ - 18.85$
           </h2>
-          <p class="p-6 text-[#6D6D6D]">Apples</p>
+          <p class="p-6 text-[#6D6D6D]">Orange</p>
           <div class="rating rating-sm">
             <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
             <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked />
@@ -311,7 +312,7 @@
           <h2 class="card-title border-b-2 border-dotted border-black pb-4 px-3 text-[#121212]">
             12.90$ - 18.85$
           </h2>
-          <p class="p-6 text-[#6D6D6D]">Apples</p>
+          <p class="p-6 text-[#6D6D6D]">Red Dragon</p>
           <div class="rating rating-sm">
             <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
             <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
@@ -325,7 +326,7 @@
               <div>
                 <img src="./images/fruit8.png" alt="" class="min-w-[200px]">
               </div>
-              <h3 class="font-bold text-2xl text-[#121212] font-extrabold">Orange</h3>
+              <h3 class="font-bold text-2xl text-[#121212] font-extrabold">Red Dragon</h3>
               <p class="py-4 text-[#646464]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
               <div class="rating rating-sm">
                 <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
@@ -354,7 +355,7 @@
           <h2 class="card-title border-b-2 border-dotted border-black pb-4 px-3 text-[#121212]">
             12.90$ - 18.85$
           </h2>
-          <p class="p-6 text-[#6D6D6D]">Apples</p>
+          <p class="p-6 text-[#6D6D6D]">Banana</p>
           <div class="rating rating-sm">
             <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
             <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked />
@@ -404,13 +405,13 @@
       </div>
       <div class="hero-content text-center text-neutral-content text-[#fff]">
         <div class="max-w-full text-center">
-          <h1 class="mb-5 text-5xl font-bold ">Meet the team section</h1>
+          <h1 class="mb-5 text-2xl lg:text-5xl font-bold ">Meet the team section</h1>
           <p class="mb-5 text-sm w-7/12 mx-auto">Contrary to popular belief, is not simply random text. It has roots in
             a piece of
             classical
             Latin literature from 45 BC, making it over 2000 years old.
           </p>
-          <div class="grid grid-cols-4 gap-20 mt-10">
+          <div class="grid grid-cols-1 lg:grid-cols-4 gap-20 mt-10">
             <div class="flex flex-col items-center justify-center">
               <div class="w-24 h-24 rounded-full overflow-hidden">
                 <img src="./images/member1.png" alt="" class="w-full h-full object-cover">
@@ -506,12 +507,12 @@
       <h2 class="text-3xl font-bold text-[#121212] mb-6 ">
         Why Choose Us
       </h2>
-      <p class="text-[#12121299] px-60 mb-10">
+      <p class="text-[#12121299] lg:px-60 mb-10">
         Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature
         from 45 BC, making it over 2000 years old.
       </p>
     </div>
-    <div class="choose-us-content grid grid-cols-3 gap-8">
+    <div class="choose-us-content grid grid-cols-1 lg:grid-cols-3 gap-8">
       <div>
         <div class="flex items-center justify-start gap-3 mb-10">
           <div class="text-[#121212]  rounded-full h-5 w-5 flex justify-center items-center bg-[#DEDEDE] rounded-full p-5 relative">
@@ -587,7 +588,7 @@
 
   <!-- Footer section -->
   <footer class="max-w-screen-full mx-auto mt-10 bg-black">
-    <div class="max-w-6xl mx-auto py-8">
+    <div class="max-w-sm lg:max-w-6xl mx-auto py-8">
       <!-- Logo and Text -->
       <div class="flex items-center justify-center mb-10 mt-10">
         <img src="./images/logo.png" alt="Logo" class="w-10 h-10 mr-2">
@@ -595,7 +596,7 @@
       </div>
 
       <!-- Menu -->
-      <ul class="flex justify-center mb-10 space-x-10">
+      <ul class=" flex-wrap lg:flex justify-center mb-10 space-x-10">
         <li><a href="#" class="text-gray-300">Home</a></li>
         <li><a href="#" class="text-gray-300">About Us</a></li>
         <li><a href="#" class="text-gray-300">Shop</a></li>
